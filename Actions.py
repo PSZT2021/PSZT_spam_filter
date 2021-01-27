@@ -18,7 +18,7 @@ class Actions:
 
     def train(self):
         list_of_words=[]
-        my_dir_path = os.path.abspath("../pszt_spam_filter/enron1/ham")
+        my_dir_path = os.path.abspath("../pszt_spam_filter-main/enron1/ham")
 
 
 
@@ -66,7 +66,7 @@ class Actions:
             results["text"].clear()
 
 
-        my_dir_path = os.path.abspath("../pszt_spam_filter/enron1/spam")
+        my_dir_path = os.path.abspath("../pszt_spam_filter-main/enron1/spam")
 
 
         print(my_dir_path)
@@ -163,7 +163,7 @@ class Actions:
 
         result_spam = 0
         result_ham = 0
-        my_dir_path = os.path.abspath("../pszt_spam_filter/enron6/spam")
+        my_dir_path = os.path.abspath("../pszt_spam_filter-main/enron6/spam")
 
         print(my_dir_path)
         k = 0
